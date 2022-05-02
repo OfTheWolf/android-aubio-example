@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <jni.h>
-#include "aubio.h"
+#include "include/aubio.h"
 
 jfieldID getPtrFieldId(JNIEnv * env, jobject obj)
 {
